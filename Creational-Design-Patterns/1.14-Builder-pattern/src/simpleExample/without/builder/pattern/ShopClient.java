@@ -1,4 +1,4 @@
-package without.builder.pattern;
+package simpleExample.without.builder.pattern;
 
 public class ShopClient {
 

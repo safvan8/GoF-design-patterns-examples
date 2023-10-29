@@ -1,4 +1,4 @@
-package with.builder.pattern;
+package simpleExample.with.builder.pattern;
 
 public class PhoneBuilder {
 
@@ -33,8 +33,8 @@ public class PhoneBuilder {
 		this.battery = battery;
 		return this;
 	}
-	
-	// returns the Object of Phone
+
+	// returns the Object of Phone , we can rename to build() method
 	public Phone getPhone() {
 		return new Phone(os, ram, processor, screenSize, battery);
 	}
