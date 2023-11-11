@@ -1,4 +1,4 @@
-package com.safvan.adapter;
+package com.safvan.facade;
 
 class Amplifier {
 	void on() {

@@ -1,4 +1,4 @@
-package com.safvan.adapter;
+package com.safvan.facade;
 
 // Define the interface for the HomeTheaterFacade
 interface HomeTheaterFacade {
